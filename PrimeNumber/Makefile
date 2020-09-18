@@ -7,7 +7,7 @@ INC = -Iunity\
 -Iinc\
 -Itest
 
-PROJECT_NAME = PrimeNumber.out
+PROJECT_NAME = PRIMENUMBER.out
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
